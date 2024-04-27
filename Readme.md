@@ -16,6 +16,7 @@ go run main.go
 ## Usage
 
 ### Endpoints
+And I have attached a Postman collection in this repository.
 
 1. **User Login**
    - **URL:** `/login`
@@ -33,6 +34,7 @@ go run main.go
     "message": "Successfully Login"
     }
     ```
+
 2. **Get Books**
    - **URL:** `/home`
    - **Method:** `GET`
@@ -51,6 +53,7 @@ go run main.go
     }
     ]
     ```
+
 3. **Add Book**
    - **URL:** `/addBook`
    - **Method:** `POST`
@@ -68,6 +71,7 @@ go run main.go
         "message": "Successfully book Added"
     }
     ```
+
 4. **Delete Book**
    - **URL:** `/deleteBook?bookName=Book Name`
    - **Method:** `DELETE`
